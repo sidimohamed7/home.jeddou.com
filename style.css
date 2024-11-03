@@ -852,9 +852,11 @@ footer a:hover{
 
 .submit{
     width: 20%;
+    font-size: 0.9em;
 }
 .clear{
     width: 20%;
+    font-size: 0.9em;
 }
 
 .skilltiles{
@@ -919,15 +921,18 @@ footer a:hover{
 
 }
 
-@media (max-width: 390px){
+@media (max-width: 395px){
     .submit{
         font-size: 0.7em; 
     }
     .clear{
         font-size: 0.7em;
     }
+    .Social{
+        padding: 0;
+        padding-right: 15px;
+    }
 }
-
 
 @media (max-width: 350px){
     .main{
