@@ -910,7 +910,12 @@ footer a:hover{
 .serviceicons{
     height: 30vh;
 }
-
+.inputs{
+    width: 75%;
+}
+.comment{
+    width: 90%;
+}
 
 }
 
