@@ -919,6 +919,16 @@ footer a:hover{
 
 }
 
+@media (max-width: 390px){
+    .submit{
+        font-size: 0.7em; 
+    }
+    .clear{
+        font-size: 0.7em;
+    }
+}
+
+
 @media (max-width: 350px){
     .main{
         padding-top: 140px;
