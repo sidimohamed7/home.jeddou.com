@@ -1,0 +1,1132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    border-bottom: 2px solid rgb(8, 23, 3);
+    border-top: 2.5px solid rgb(8, 23, 3);
+    border-right: 2.5px solid white;
+    
+
+}
+.jed{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding-left: 30px;
+    transition: 1s ease;
+}
+.navigation a:hover{
+    color: rgb(22, 27, 189);
+    font-weight: 700;
+    font-size: 1.3em;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    padding: 100px 200px;
+    
+    
+}
+.main{
+    
+    width: 100%;
+    min-height: 97vh;
+    display: block;
+    align-items: center;
+    background:  url(images/shot9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 35px;
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    
+    
+}
+.main h2 span{
+    background-color: rgb(0, 255, 68);
+    display: inline-block;
+    color: rgb(20, 48, 207);
+    font-size: 3em;
+    font-weight: 700;
+}
+.main h2 span:hover{
+    background: none;
+    color: rgb(233, 12, 45);
+    font-weight: 700;
+    font-size: 3em;
+}
+.main h3{
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+#btn button{
+    background-color: rgb(92, 0, 240);
+    color: white;
+    height: 1.2cm;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: solid rgb(18, 230, 39) 5px;
+    border-radius: 10px;
+}
+#btn button:hover{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    color: black;
+    border: solid 5px white;
+    background-color: rgb(0, 255, 68);
+    
+}
+.social{
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.social a:hover{
+    color: rgb(8, 242, 20);
+}
+.Social a:hover{
+    color: rgb(8, 242, 20);
+}
+.Social:hover{
+    transform: scale(1.1);
+}
+.Social{
+    transition: 0.7s;
+}
+
+hr{
+    background: rgb(233, 12, 45);
+    margin-left: 25%;
+    width: 50%;
+    height: 0.3cm;
+}
+.main1{
+    width: 100%;
+    min-height: 100vh;
+    
+    align-items: center;
+    background-color: rgba(19, 27, 20, 0.544);
+    background: url(images/shot3.jpeg);
+    background-size: cover;
+}
+
+
+
+.projects{
+    width: 100%;
+    
+    padding: 10px 50px;
+    align-items: center;
+    background-color: rgb(133, 238, 143);
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 10px;
+    
+}
+.projects h2{
+    text-align: center;
+    color: blue;
+    font-size:  2em;
+    font-weight: 700;
+}
+.projects h4{
+    text-align: center;
+    color: rgb(34, 4, 4);
+    font-size: 1.4em;
+    font-weight: 800;
+}
+.Ssites{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sites{
+    width: 180px;
+    padding:5px;
+    margin: 40px;
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border: 3px solid rgb(15, 23, 237);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+}
+.sites:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.Wicons{
+    width: 100%;
+    min-height: 10vh;
+}
+.Wtitles:hover{
+    color: blue;
+    font-weight: 700;
+}
+
+.bar{
+    color: white;
+    background-color: crimson;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    
+}
+.bar:hover{
+    background-color: blue;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+.services{
+    width: 100%;
+    
+    padding: 10px 50px;
+    border: 5px solid;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(241, 129, 247);
+    
+}
+.services h2{
+    color: blue;
+    font-size:  2em;
+    font-weight: 700;
+}
+.contact p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 400px; 
+    height: 50vh;
+}
+
+.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+
+.Prev {
+    
+    
+    margin-left: 5px;
+    
+}
+
+.Next {
+    
+    
+    margin-left: 285px ;
+}
+
+
+.mainbox1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 75vh;
+    border-radius: 50%;
+    box-shadow: 0 5px 25px rgba(29, 4, 4, 0.982);
+    justify-content: center;
+    align-items: center;
+}
+.mainbox2{
+    width: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.serbox{
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(255, 83, 83, 0.982);
+    flex-wrap: wrap;
+    
+    
+}
+.serviceBOXS{
+    width: 200px;
+    padding:5px;
+    margin: 20px;
+    background-color: rgb(129, 252, 113);
+    
+    border: 3px solid rgb(15, 23, 237);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+}
+.serviceBOXS:hover{
+    transform: scale(1.05);
+    color: red;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+}
+.serviceicons{
+    width: 100%;
+    min-height: 30vh;
+}
+.servicetitles{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.serviceBOXS a{
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.slideshow-container{
+    border: rgb(3, 255, 41) solid 5px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.scroll-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 30px;
+    background-color: rgb(66, 66, 250);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    transition: background-color 0.3s;
+}
+.scroll-arrow:hover {
+    background-color: #595cfb;
+}
+
+
+
+.clickable {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.link-word {
+    color: rgb(0, 38, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.modal-window {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 75%; 
+    max-width: 600px; 
+}
+
+.close-button {
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.about{
+    width: 100%;
+    
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 135, 243);
+    border: 5px solid;
+    border-radius: 10px;
+    
+}
+.about h2{
+    text-align: center;
+    color: blue;
+    font-size:  2em;
+    font-weight: 700;
+}
+.about h4{
+    text-align: center;
+    color: rgb(34, 4, 4);
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.about h3{
+    text-align: center;
+}
+.BAR{
+    color: white;
+    background-color: crimson;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 50%;
+    direction: ltr;
+    display: flex;
+    border: solid rgb(122, 122, 228) 5px;
+    margin-left: 300px;
+}   
+
+.Bar1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 220, 50);
+    width: 75%;
+    text-align: center;
+    
+}
+.Bar2{
+    width: 25%;
+    text-align: center;
+}
+.Bar3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 220, 50);
+    width: 30%;
+    text-align: center;
+    
+}
+.Bar4{
+    width: 70%;
+    text-align: center;
+}
+.skillsbar{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    background-color: rgb(220, 222, 222);
+    padding: 10px;
+    transition: 0.7s;
+    
+}
+.skillsbar:hover{
+    background-color: rgb(243, 243, 243);
+    transform: scale(1.02);
+}
+.skillsbar p{
+    color: blue;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.skillsbox{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border-bottom: 5px solid rgb(235, 38, 38);
+    border-radius: 15px;
+}
+.skillBOXS{
+    width: 180px;
+    padding:5px;
+    margin: 40px;
+    background-color: rgb(245, 235, 235);
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border: 3px solid rgb(15, 23, 237);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+}
+.skillBOXS:hover{
+    
+    transform: scale(1.2);
+    color: red;
+}
+.skilltiles{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:  1.5em;
+    font-weight: 600;
+    background-color: rgb(245, 116, 116);
+    width: 50%;
+    margin-left: 312px;
+}
+
+.contact{
+    width: 100%;
+    
+    padding: 10px 50px;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    border: 5px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    color: blue;
+    font-size:  2em;
+    font-weight: 700;
+}
+.contact p{
+    font-size: 1.1;
+    font-weight: 600;
+}
+.form{
+    display: block;
+    text-align: center;
+    background-color: rgba(16, 3, 3, 0.826);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+.form p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.form div{
+    margin: 10px;
+}
+textarea{
+
+    width: 50%;
+    background-color: rgb(212, 174, 247);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.submit{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    width: 7%;
+    min-height: 5vh;
+    border-radius: 10px;
+    font-size: 1.1em;
+    transition: 0.7s;
+}
+.clear{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    width: 7%;
+    min-height: 5vh;
+    border-radius: 10px;
+    font-size: 1.1em;
+    transition: 0.7s;
+}
+.submit:hover{
+    background-color: rgb(34, 255, 0);
+    transform: scale(1.1);
+}
+.clear:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+.comment label{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+label{
+    font-weight: 600;
+}
+.inputs{
+    color: black;
+    font-weight: 500;
+    padding: 2.5px;
+    padding-left: 4px;
+    border-radius: 5px;
+    width: 20%;
+}
+select{
+    padding: 2.5px;
+    padding-left: 4px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+.Social{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    border: solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 475px;
+}
+.Social a{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(62, 73, 193);
+    margin: 10px;
+}
+.dropdown{
+    width: 100px;
+    background-color: white;
+    margin-left: 30px;
+    color: blue;
+    padding-left: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: rgb(69, 247, 9) solid 2px;
+    border-bottom: rgb(69, 247, 9) solid 10px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+footer a{
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+footer a:hover{
+    color: rgb(30, 255, 9);
+    font-weight: 700;
+    text-decoration: underline red;
+}
+
+
+
+
+@media (max-width:500px){
+    
+    .main{
+        padding: 0;
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+    .main h2{
+        font-size: 1.1em;
+    }
+    .main h2 span{
+        font-size: 1.5em;
+    }
+    .main h2 span:hover{
+        font-size: 1.5em;
+    }
+    .main h3{
+        font-size: 1.2em;
+    }
+    header {
+        padding: 10px 10px;
+    }
+    .jed, .navigation a {
+        font-size: 1em;
+    }
+    .main h2, .main h3, .projects h2, .services h2, .contact h2, .about h2 {
+        font-size: 1.2em;
+    }
+    button {
+        width: 80%;
+    }
+    .sites {
+        width: 120px;
+        margin: 20px;
+    }
+
+    .mainbox1{
+        background-color: #fc5b5b;
+        border-radius: 0;
+        width: 100%;
+    }
+    .mainbox2{
+        width: 100%;
+    }
+    .slideshow-container{
+        width: 100%;
+    }
+
+    .active {
+        display: block;
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.7); 
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px; 
+        transition: background-color 0.3s; 
+        width: 30%;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(73, 247, 60, 0.9); 
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    
+    .indicator {
+        text-align: center;
+        margin-top: 10px; 
+    }
+    
+    .indicator span {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5); 
+        cursor: pointer;
+    }
+    
+    .indicator span.active {
+        background-color: white; 
+    }
+    
+    .scroll-arrow {
+        position: fixed;
+        bottom: 20px;
+        right: 15px;
+        font-size: 30px;   
+    }
+    .Social{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.7s;
+    }
+    .Social:hover{
+        transform: scale(1.05);
+    }
+
+.submit{
+    width: 20%;
+    font-size: 0.9em;
+}
+.clear{
+    width: 20%;
+    font-size: 0.9em;
+}
+
+.skilltiles{
+    padding: 0;
+    margin: 0;
+    margin-left: 88px;
+    font-size: 1.1em;
+}
+
+.skillsbar{
+    justify-content: center;
+    align-items: center;
+}
+    
+.BAR{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.Bar3{
+    padding: 0;
+    font-size: 0.91em;
+    width: 30%;
+    text-align: center;
+}
+.Bar4{
+    width: 70%;
+    text-align: center;
+}
+.mainbox1{
+    background-color: rgb(197, 164, 164);
+    border-bottom:5px solid red  ;
+    border-top: 5px solid red;
+}
+
+.slideshow-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 40vh;
+}
+.slide{
+    
+    width: 400px;
+    height: 40vh;
+    
+}
+
+.serviceBOXS{
+    width: 90%;
+    height: 47vh;
+}
+.serviceicons{
+    height: 30vh;
+}
+.inputs{
+    width: 75%;
+}
+.comment{
+    width: 90%;
+}
+}
+
+@media (max-width: 395px){
+    .submit{
+        font-size: 0.7em; 
+    }
+    .clear{
+        font-size: 0.7em;
+    }
+    .Social{
+        padding: 0;
+        padding-right: 15px;
+    }
+    
+}
+
+@media (max-width: 350px){
+    .main{
+        padding-top: 140px;
+    }
+    .main h2 {
+        font-size: 1.1em;
+    }
+    .main h2 span{
+        font-size: 1.3em;
+    }
+    .main h2 span:hover{
+        font-size: 1.3em;
+    }
+    .main h3{
+        font-size: 1.1em;
+    }
+    .mainbox1{
+        background-color: rgb(82, 219, 219);
+        border-radius: 0%;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+        border-bottom: rgb(255, 255, 255) solid 3px;
+        border-top: rgb(255, 255, 255) solid 3px;
+    }
+    .mainbox2{
+        width: 100%;
+        
+    }
+
+
+
+    .slideshow-container {
+        position: relative;
+        max-width: 100%; 
+        overflow: hidden;
+        border-radius: 10px; 
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+        
+    }
+    
+    .slide {
+        display: none;
+        width: 100%;
+        height: 37vh;
+        object-fit: cover; 
+        
+    }
+    
+    .active {
+        display: block;
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.7); 
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px; 
+        transition: background-color 0.3s; 
+        width: 30%;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(73, 247, 60, 0.9); 
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    
+    .indicator {
+        text-align: center;
+        margin-top: 10px; 
+    }
+    
+    .indicator span {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5); 
+        cursor: pointer;
+    }
+    
+    .indicator span.active {
+        background-color: white; 
+    }   
+}
+@media (max-width: 1000px){
+    .main{
+        padding-top: 120px;
+        padding-left: 50px;
+    }
+    .main h2 {
+        font-size: 1.1em;
+    }
+    .main h2 span{
+        font-size: 1.3em;
+    }
+    .main h2 span:hover{
+        font-size: 1.3em;
+    }
+    .main h3{
+        font-size: 1.1em;
+    }
+    .slideshow-container {
+        position: relative;
+        max-width: 100%; 
+        overflow: hidden;
+        border-radius: 10px; 
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .slide {
+        display: none;
+        width: 100%;
+        height: 50vh; 
+        object-fit: cover; 
+    }
+    
+    .active {
+        display: block;
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.7); 
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px; 
+        transition: background-color 0.3s; 
+        width: 30%;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(73, 247, 60, 0.9); 
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    
+    .indicator {
+        text-align: center;
+        margin-top: 10px; 
+    }
+    
+    .indicator span {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5); 
+        cursor: pointer;
+    }
+    
+    .indicator span.active {
+        background-color: white; 
+    }
+}
+
+@media (max-width:664px){
+    .main{
+        padding: 0;
+        padding-top: 160px;
+        padding-left: 40px;
+    }
+}
+@media (max-width:645px){
+    .main{
+        padding: 0;
+        padding-top: 200px;
+        padding-left: 40px;
+    }
+}
