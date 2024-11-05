@@ -764,6 +764,8 @@ footer a:hover{
     #btn button {
         width: 80%;
     }
+    #btn button:hover{
+        backgound-color:red;
     .sites {
         width: 120px;
         margin: 20px;
